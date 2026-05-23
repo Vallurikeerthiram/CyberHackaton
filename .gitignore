@@ -1,0 +1,27 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases and Local Storage
+*.db
+soar_mail.db
+quarantine_log.json
+
+# Environment Secrets
+.env
+
+# Google/Microsoft API Secrets & OAuth tokens
+token*.json
+credentials.json
+client_secret*.json
+
+# Generated Reports & Tickets
+reports/
+reports/*
+
+# IDE and System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
